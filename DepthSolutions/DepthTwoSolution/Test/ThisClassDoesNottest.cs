@@ -1,5 +1,4 @@
-/* V=100 */
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace DepthSolutions.Wolfgang.DepthTwoSolution.Test {
     [TestClass]

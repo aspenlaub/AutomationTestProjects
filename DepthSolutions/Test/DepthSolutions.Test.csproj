@@ -6,8 +6,8 @@
     <ProjectGuid>{660FC934-669E-42B4-B8AE-5B1189975178}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DepthSolutions.Wolfgang.DepthSolutions.Test</RootNamespace>
-    <AssemblyName>DepthSolutions.Wolfgang.DepthSolutions.Test</AssemblyName>
+    <RootNamespace>DepthSolutions.Wolfgang.Test</RootNamespace>
+    <AssemblyName>DepthSolutions.Wolfgang.Test</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>

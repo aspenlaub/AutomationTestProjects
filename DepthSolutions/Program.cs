@@ -1,7 +1,6 @@
-/* V=100 */
-﻿namespace DepthSolutions.Wolfgang.DepthSolutions {
-    class Program {
-        static void Main(string[] args) {
+namespace DepthSolutions.Wolfgang {
+     internal class Program {
+         private static void Main() {
         }
     }
 }

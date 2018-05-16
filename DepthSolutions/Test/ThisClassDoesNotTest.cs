@@ -1,7 +1,6 @@
-/* V=100 */
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace DepthSolutions.Wolfgang.DepthSolutions.Test {
+namespace DepthSolutions.Wolfgang.Test {
     [TestClass]
     public class ThisClassDoesNotTest {
         [TestMethod]

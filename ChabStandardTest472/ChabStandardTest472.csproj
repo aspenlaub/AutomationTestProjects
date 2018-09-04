@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Aspenlaub.Net.GitHub.CSharp.ChabStandardTest472</AssemblyName>
+    <RootNamespace>Aspenlaub.Net.GitHub.CSharp.ChabStandardTest472</RootNamespace>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateBuildInfoConfigFile>false</GenerateBuildInfoConfigFile>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <Deterministic>false</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <NuspecFile>ChabStandardTest472.nuspec</NuspecFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="ChabStandard.Test\**" />
+    <Compile Remove="Test\**" />
+    <EmbeddedResource Remove="ChabStandard.Test\**" />
+    <EmbeddedResource Remove="Test\**" />
+    <None Remove="ChabStandard.Test\**" />
+    <None Remove="Test\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="LibGit2Sharp" Version="0.25.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+</Project>

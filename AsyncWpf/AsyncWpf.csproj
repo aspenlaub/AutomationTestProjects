@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -9,7 +9,8 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Aspenlaub.Net.GitHub.CSharp.AsyncWpf</RootNamespace>
     <AssemblyName>Aspenlaub.Net.GitHub.CSharp.AsyncWpf</AssemblyName>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <Deterministic>false</Deterministic>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <WarningLevel>4</WarningLevel>
@@ -38,70 +39,6 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Aspenlaub.Net.GitHub.CSharp.Pegh, Version=1.0.6750.33219, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Aspenlaub.Net.GitHub.CSharp.Vishizhukel.1.0.6807.13681\lib\net46\Aspenlaub.Net.GitHub.CSharp.Pegh.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Aspenlaub.Net.GitHub.CSharp.Pegh.Components, Version=1.0.6750.33219, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Aspenlaub.Net.GitHub.CSharp.Vishizhukel.1.0.6807.13681\lib\net46\Aspenlaub.Net.GitHub.CSharp.Pegh.Components.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Aspenlaub.Net.GitHub.CSharp.Pegh.Entities, Version=1.0.6750.33219, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Aspenlaub.Net.GitHub.CSharp.Vishizhukel.1.0.6807.13681\lib\net46\Aspenlaub.Net.GitHub.CSharp.Pegh.Entities.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Aspenlaub.Net.GitHub.CSharp.Pegh.GUI, Version=1.0.6750.33220, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Aspenlaub.Net.GitHub.CSharp.Vishizhukel.1.0.6807.13681\lib\net46\Aspenlaub.Net.GitHub.CSharp.Pegh.GUI.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Aspenlaub.Net.GitHub.CSharp.Pegh.Interfaces, Version=1.0.6750.33219, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Aspenlaub.Net.GitHub.CSharp.Vishizhukel.1.0.6807.13681\lib\net46\Aspenlaub.Net.GitHub.CSharp.Pegh.Interfaces.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Aspenlaub.Net.GitHub.CSharp.Pegh.SampleEntities, Version=1.0.6750.33219, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Aspenlaub.Net.GitHub.CSharp.Vishizhukel.1.0.6807.13681\lib\net46\Aspenlaub.Net.GitHub.CSharp.Pegh.SampleEntities.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Aspenlaub.Net.GitHub.CSharp.Vishizhukel, Version=1.0.6807.13681, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Aspenlaub.Net.GitHub.CSharp.Vishizhukel.1.0.6807.13681\lib\net46\Aspenlaub.Net.GitHub.CSharp.Vishizhukel.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Aspenlaub.Net.GitHub.CSharp.Vishizhukel.Core, Version=1.0.6807.13681, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Aspenlaub.Net.GitHub.CSharp.Vishizhukel.1.0.6807.13681\lib\net46\Aspenlaub.Net.GitHub.CSharp.Vishizhukel.Core.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Aspenlaub.Net.GitHub.CSharp.Vishizhukel.Entities, Version=1.0.6807.13681, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Aspenlaub.Net.GitHub.CSharp.Vishizhukel.1.0.6807.13681\lib\net46\Aspenlaub.Net.GitHub.CSharp.Vishizhukel.Entities.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Aspenlaub.Net.GitHub.CSharp.Vishizhukel.GUI, Version=1.0.6807.13681, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Aspenlaub.Net.GitHub.CSharp.Vishizhukel.1.0.6807.13681\lib\net46\Aspenlaub.Net.GitHub.CSharp.Vishizhukel.GUI.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Aspenlaub.Net.GitHub.CSharp.Vishizhukel.Interfaces, Version=1.0.6807.13681, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Aspenlaub.Net.GitHub.CSharp.Vishizhukel.1.0.6807.13681\lib\net46\Aspenlaub.Net.GitHub.CSharp.Vishizhukel.Interfaces.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Aspenlaub.Net.GitHub.CSharp.Vishizhukel.Interfaces.Basic, Version=1.0.6807.13681, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Aspenlaub.Net.GitHub.CSharp.Vishizhukel.1.0.6807.13681\lib\net46\Aspenlaub.Net.GitHub.CSharp.Vishizhukel.Interfaces.Basic.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Aspenlaub.Net.GitHub.CSharp.Vishizhukel.IO, Version=1.0.6807.13681, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Aspenlaub.Net.GitHub.CSharp.Vishizhukel.1.0.6807.13681\lib\net46\Aspenlaub.Net.GitHub.CSharp.Vishizhukel.IO.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="DotNetZip, Version=1.11.0.0, Culture=neutral, PublicKeyToken=6583c7c814667745, processorArchitecture=MSIL">
-      <HintPath>packages\DotNetZip.1.11.0\lib\net20\DotNetZip.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Xml" />
@@ -151,9 +88,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="packages.config">
-      <SubType>Designer</SubType>
-    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -165,12 +99,13 @@
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Aspenlaub.Net.GitHub.CSharp.Pegh">
+      <Version>1.0.6807.13592</Version>
+    </PackageReference>
+    <PackageReference Include="Aspenlaub.Net.GitHub.CSharp.Vishizhukel">
+      <Version>1.0.6807.13681</Version>
+    </PackageReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
 </Project>

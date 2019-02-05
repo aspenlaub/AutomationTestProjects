@@ -101,10 +101,10 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Aspenlaub.Net.GitHub.CSharp.Pegh">
-      <Version>1.0.6807.13592</Version>
+      <Version>1.0.6973.27751</Version>
     </PackageReference>
     <PackageReference Include="Aspenlaub.Net.GitHub.CSharp.Vishizhukel">
-      <Version>1.0.6807.13681</Version>
+      <Version>1.0.6973.28158</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -4,8 +4,8 @@ using Aspenlaub.Net.GitHub.CSharp.Vishizhukel.Interfaces.Application;
 
 namespace Aspenlaub.Net.GitHub.CSharp.AsyncWpf {
     public class PrimeNumbersCommand : IApplicationCommand {
-        public bool MakeLogEntries { get { return false; } }
-        public string Name { get { return "PrimeNumbers"; } }
+        public bool MakeLogEntries => false;
+        public string Name => "PrimeNumbers";
         public bool CanExecute() { return true; }
 
         public async Task Execute(IApplicationCommandExecutionContext context) {
@@ -22,7 +22,8 @@ namespace Aspenlaub.Net.GitHub.CSharp.AsyncWpf {
             uint n = 1;
             do {
                 n++;
-                var isPrime = await Task.Run(() => IsPrime(n)).ConfigureAwait(calledFromMainThread);
+                var copyOfN = n;
+                var isPrime = await Task.Run(() => IsPrime(copyOfN)).ConfigureAwait(calledFromMainThread);
                 if (!isPrime) { continue; }
 
                 context.Report($"{n} is a prime number", true);

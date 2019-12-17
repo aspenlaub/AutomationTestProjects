@@ -1,10 +1,13 @@
 using System;
+using System.Runtime.CompilerServices;
 using System.Threading;
 using System.Windows;
 using Aspenlaub.Net.GitHub.CSharp.Vishizhukel.Application;
 using Aspenlaub.Net.GitHub.CSharp.Vishizhukel.Interfaces.Application;
 
+[assembly: InternalsVisibleTo("Aspenlaub.Net.GitHub.CSharp.AsyncWpf.Test")]
 namespace Aspenlaub.Net.GitHub.CSharp.AsyncWpf {
+    // ReSharper disable once UnusedMember.Global
     public partial class MainWindow {
         protected readonly ApplicationCommandController CommandController;
 

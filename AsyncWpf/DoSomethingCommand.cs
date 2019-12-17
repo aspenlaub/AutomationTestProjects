@@ -4,8 +4,8 @@ using Aspenlaub.Net.GitHub.CSharp.Vishizhukel.Interfaces.Application;
 
 namespace Aspenlaub.Net.GitHub.CSharp.AsyncWpf {
     public class DoSomethingCommand : IApplicationCommand {
-        public bool MakeLogEntries { get { return false;  } }
-        public string Name { get { return "DoSomething"; } }
+        public bool MakeLogEntries => false;
+        public string Name => "DoSomething";
         public bool CanExecute() { return true; }
 
         public async Task Execute(IApplicationCommandExecutionContext context) {

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="OneOutOfTwoInOne.csproj" />
+  <Project Path="Test/OneOutOfTwoInOne.Test.csproj" />
+</Solution>

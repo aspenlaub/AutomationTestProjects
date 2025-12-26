@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="MoreTest/OneOutOfTwoInTwo.MoreTest.csproj" />
+  <Project Path="OneOutOfTwoInTwo.csproj" />
+  <Project Path="Test/OneOutOfTwoInTwo.Test.csproj" />
+</Solution>

@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net5.0-windows</TargetFramework>
+    <TargetFramework>net11.0-windows</TargetFramework>
     <UseWPF>true</UseWPF>
     <AssemblyName>Aspenlaub.Net.GitHub.CSharp.ZeroOutOfZeroInOne.TestFake</AssemblyName>
     <RootNamespace>Aspenlaub.Net.GitHub.CSharp.ZeroOutOfZeroInOne.TestFake</RootNamespace>
